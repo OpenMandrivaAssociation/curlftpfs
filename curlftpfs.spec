@@ -27,7 +27,7 @@ CurlFtpFS diferentiates itself from other FTP filesystems because it features:
 
 %build
 %configure
-make
+%make
 
 %install
 %makeinstall
