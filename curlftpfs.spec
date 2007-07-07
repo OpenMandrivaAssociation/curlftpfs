@@ -1,6 +1,6 @@
 %define name curlftpfs
 %define version 0.9.1
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name:		%name
 Version:	%version
@@ -11,6 +11,7 @@ License:	GPL
 Group:		Networking/Other
 BuildRoot:	%{_tmppath}/%{name}-root
 BuildRequires:	curl-devel, fuse-devel, glib2-devel
+Requires:	fuse
 Source:		%{name}-%{version}.tar.gz
 %description
 CurlFtpFS is a filesystem for accessing FTP hosts based on FUSE and libcurl.
