@@ -6,7 +6,7 @@ Name:		%name
 Version:	%version
 Release:	%release
 Url:		http://curlftpfs.sourceforge.net/
-Summary:	CurlFtpFS is a filesystem for accessing FTP hosts based on FUSE and libcurl
+Summary:	Filesystem for accessing FTP hosts based on FUSE and libcurl
 License:	GPL+
 Group:		Networking/Other
 BuildRoot:	%{_tmppath}/%{name}-root
