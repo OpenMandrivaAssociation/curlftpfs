@@ -1,6 +1,6 @@
 %define name curlftpfs
-%define version 0.9.1
-%define release %mkrel 5
+%define version 0.9.2
+%define release %mkrel 1
 
 Name:		%name
 Version:	%version
@@ -27,11 +27,12 @@ CurlFtpFS diferentiates itself from other FTP filesystems because it features:
 %setup -q
 
 %build
-%configure
+autoreconf -fi
+%configure2_5x
 %make
 
 %install
-%makeinstall
+%makeinstall_std
 
 %clean
 %{__rm} -Rf %{buildroot}
