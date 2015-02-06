@@ -1,6 +1,6 @@
 %define name curlftpfs
 %define version 0.9.2
-%define release %mkrel 4
+%define release 5
 
 Name:		%name
 Version:	%version
