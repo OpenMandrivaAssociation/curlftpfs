@@ -5,7 +5,7 @@
 Name:		%name
 Version:	%version
 Release:	%release
-Url:		http://curlftpfs.sourceforge.net/
+Url:		https://curlftpfs.sourceforge.net/
 Summary:	Filesystem for accessing FTP hosts based on FUSE and libcurl
 License:	GPL+
 Group:		Networking/Other
