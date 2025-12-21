@@ -10,6 +10,11 @@ Summary:	Filesystem for accessing FTP hosts based on FUSE and libcurl
 License:	GPL+
 Group:		Networking/Other
 BuildRoot:	%{_tmppath}/%{name}-root
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	curl-devel, fuse-devel, glib2-devel
 Requires:	fuse
 Source:		%{name}-%{version}.tar.gz
